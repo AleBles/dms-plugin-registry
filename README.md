@@ -1124,6 +1124,36 @@ Monitor Claude, Codex, OpenCode, Antigravity, DeepSeek, and Grok usage limits an
 
 
 
+#### [AI Usage](https://github.com/alcxyz/DankAIUsage)
+
+Monitor Codex and Claude subscription quotas, extra-usage credits, and local token history with switchable used/remaining views and quick bar controls
+
+
+
+- id: dankAIUsage
+- name: AI Usage
+- author: alcxyz
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: dankaiusage, codex, claude
+- distro: any
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/alcxyz/DankAIUsage/main/docs/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [AMD GPU Monitor](https://github.com/navidagz/dms-amd-gpu-monitor)
 
 Monitor AMD GPU usage, VRAM, temperature, power consumption and process usage.
@@ -1602,6 +1632,36 @@ Display daily Codeforces problem solving activity with a color-coded heatmap
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/EchoSingh/codeforces-dms-plugin/main/CodeForcesHeatMap/cf_heatmap.png)
+
+</details>
+
+
+
+
+
+#### [Codex Usage](https://github.com/mir4zul/codex-usage)
+
+Two progress rings for locally recorded Codex five-hour and weekly usage, with remaining percentages and reset countdowns.
+
+
+
+- id: codexUsage
+- name: Codex Usage
+- author: mir4zul
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: python3
+- distro: any
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/mir4zul/codex-usage/main/assets/screenshot.png)
 
 </details>
 
@@ -2199,6 +2259,36 @@ Real-time network speed monitor for DankBar showing upload and download speeds
 
 
 
+#### [Network Status](https://github.com/noahm-05/dms-net-status)
+
+Shows your local machine IP, active VPN tunnel IP, and optional Tailscale IP in the bar. Right-click to cycle between them.
+
+
+
+- id: netStatus
+- name: Network Status
+- author: Noah
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: iproute2
+- distro: any
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/noahm-05/dms-net-status/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Nix Monitor](https://github.com/antonjah/nix-monitor)
 
 Monitor Nix store disk usage and system generations with integrated system management capabilities
@@ -2497,6 +2587,36 @@ Real-time CPU, temperature, RAM, network, disk and GPU line charts for the DankB
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/chr314/dms-system-monitor/refs/heads/master/screenshots/popup.png)
+
+</details>
+
+
+
+
+
+#### [TS6 Monitor](https://github.com/Lemon-mon-254/dms-plugin-TS6Monitor)
+
+TeamSpeak 6 voice status monitor for the bar: live mic/mute/away state, channel members with avatars and volume bars, one-click virtual-key controls, and an on-screen volume OSD via TS6 Remote Apps.
+
+
+
+- id: tsMonitor
+- name: TS6 Monitor
+- author: Lemon-mon-254
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: pactl
+- distro: any
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/Lemon-mon-254/dms-plugin-TS6Monitor/main/screenshots/ts.png)
 
 </details>
 
@@ -2821,6 +2941,36 @@ Per-app bar badges for what happened since you last focused that app, cleared by
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/mkoester/dms-attention-badges/main/docs/screenshot.png)
+
+</details>
+
+
+
+
+
+#### [Aven Tasks](https://github.com/gtheys/dms-aven)
+
+Quick-add tasks to the aven todo manager from DankLauncher. Pick a project from any aven workspace, or create one on the fly.
+
+<strong>requires DMS version</strong>: <em>>=1.2.0</em>
+
+- id: aven
+- name: Aven Tasks
+- author: Geert Theys
+- compositors: any
+- capabilities: launcher
+- dependencies: aven
+- distro: any
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/gtheys/dms-aven/main/screenshot.png)
 
 </details>
 
@@ -4762,6 +4912,36 @@ One bar button that drops a panel of real bar widgets below the bar, for side se
 
 
 
+#### [Bitwarden Dankbar](https://github.com/coldi1337/dms-bitwarden-cli)
+
+Search and manage Bitwarden or Vaultwarden using the official Bitwarden CLI, with optional PIN and fingerprint unlock.
+
+<strong>requires DMS version</strong>: <em>>=1.6.0</em>
+
+- id: bitwarden
+- name: Bitwarden Dankbar
+- author: coldi1337
+- compositors: any
+- capabilities: dankbar-widget, ipc
+- dependencies: bitwarden-cli, jq, wl-clipboard
+- distro: any
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/coldi1337/dms-bitwarden-cli/main/docs/screenshots/dms-vault-preview.png)
+
+</details>
+
+
+
+
+
 #### [Bongo Cat](https://github.com/hthienloc/dms-bongo-cat)
 
 A reactive animated cat that taps along with your keyboard input.
@@ -5007,6 +5187,76 @@ Courses, grades, upcoming assignments, missing work, and announcements from Canv
 
 
 
+#### [Chat Manager](https://github.com/by-architect/DMS-Plugins)
+
+One chat window and one message store for every provider. Install a provider plugin -- Matrix, WhatsApp, Signal -- alongside it and each keeps its own history and settings.
+
+
+
+- id: chatManager
+- name: Chat Manager
+- author: by-architect
+- compositors: any
+- capabilities: daemon
+- dependencies: go
+- distro: any
+
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [chatManager](https://github.com/by-architect/DMS-Plugins/tree/main/chatManager) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/by-architect/DMS-Plugins/main/chatManager/docs/screenshot.png)
+
+</details>
+
+
+
+
+
+#### [Chat Runner](https://github.com/by-architect/DMS-Plugins)
+
+Search every conversation from every chat provider in the launcher, ranked in one flat list. Requires the Chat Manager plugin.
+
+
+
+- id: chatRunner
+- name: Chat Runner
+- author: by-architect
+- compositors: any
+- capabilities: launcher
+- dependencies: 
+- distro: any
+
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [chatRunner](https://github.com/by-architect/DMS-Plugins/tree/main/chatRunner) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/by-architect/DMS-Plugins/main/chatRunner/docs/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Chinese Calendar](https://github.com/xxyangyoulin/dms-plugin-ccal)
 
 Display Chinese lunar calendar with holiday information in the status bar
@@ -5130,6 +5380,41 @@ Record a screen region, compress it for sharing, or upload it to Catbox with an 
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/agneswd/dms-clipshare/main/assets/screenshot.png)
+
+</details>
+
+
+
+
+
+#### [Clipboard Runner](https://github.com/by-architect/DMS-Plugins)
+
+Run your own commands against whatever you just copied. Each action is filed under a content type -- link, colour, file or text -- and only the ones that fit the clipboard are offered, so typing 'clip' never shows an action that cannot apply.
+
+
+
+- id: clipboardRunner
+- name: Clipboard Runner
+- author: by-architect
+- compositors: any
+- capabilities: launcher
+- dependencies: ffmpeg, imagemagick, python3, xdg-utils, curl
+- distro: any
+
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [clipboardRunner](https://github.com/by-architect/DMS-Plugins/tree/main/clipboardRunner) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/by-architect/DMS-Plugins/main/clipboardRunner/docs/screenshot.png)
 
 </details>
 
@@ -6124,7 +6409,7 @@ A customizable Pomodoro timer.
 
 #### [Dank RSS Widget](https://github.com/BrendonJL/dms-rss-widget)
 
-Desktop widget that displays RSS/Atom feeds with auto-refresh, plus full Miniflux integration with bidirectional read/unread/starred sync
+Desktop widget for RSS/Atom feeds with vim-style keyboard navigation, a reading window with local full-text extraction, and export to markdown notes. Syncs with Miniflux and Google Reader (FreshRSS, Tiny Tiny RSS, Inoreader). Optional local AI via any OpenAI-compatible runtime for per-article summaries, a daily digest and interest ranking. Colour-blindness-safe palettes
 
 
 
@@ -6235,6 +6520,36 @@ CalDAV calendar widget with event listing, notifications, and event management v
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/alcxyz/DankCalendar/main/docs/screenshot.png)
+
+</details>
+
+
+
+
+
+#### [DankChat](https://github.com/coldi1337/DankChat)
+
+Native Telegram and WhatsApp chats with a bar dropdown, tiling window, voice messages, attachments and emoji reactions.
+
+
+
+- id: dankChat
+- name: DankChat
+- author: coldi1337
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: python3, python-telethon, python-qrcode, python-pillow, wacli 0.17.1, qt6-multimedia, qt6-imageformats, systemd, wl-clipboard, ffmpeg (with libopus and PulseAudio input), PulseAudio or PipeWire with pipewire-pulse
+- distro: any
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/coldi1337/DankChat/v0.4.0/docs/preview.png)
 
 </details>
 
@@ -7417,6 +7732,36 @@ Drink water reminder and tracker.
 
 
 
+#### [Hyprland Submap Bar](https://github.com/agussantos023/hyprSubmap)
+
+Shows the current Hyprland submap on the DMS bar
+
+
+
+- id: hyprSubmap
+- name: Hyprland Submap Bar
+- author: agussantos023
+- compositors: hyprland
+- capabilities: widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/agussantos023/hyprSubmap/main/screenshot/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Hyprland Window Switcher](https://github.com/AvengeMedia/dms-plugins)
 
 Switch between Hyprland windows with live previews
@@ -7930,6 +8275,41 @@ Switch MangoWM layouts from DankBar with visual previews, configurable click sho
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/omarluq/DMSMangoWCLayoutManager/main/screenshot.png)
+
+</details>
+
+
+
+
+
+#### [Matrix Chat](https://github.com/by-architect/DMS-Plugins)
+
+Matrix provider for the Chat Manager plugin. Rooms, direct messages, attachments, replies and read receipts, with end-to-end encryption and recovery-key verification. Requires the Chat Manager plugin.
+
+
+
+- id: matrixChat
+- name: Matrix Chat
+- author: by-architect
+- compositors: any
+- capabilities: daemon
+- dependencies: go
+- distro: any
+
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [matrixChat](https://github.com/by-architect/DMS-Plugins/tree/main/matrixChat) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/by-architect/DMS-Plugins/main/matrixChat/docs/screenshot.png)
 
 </details>
 
@@ -8455,6 +8835,36 @@ Extract text from clipboard images or local files using Tesseract OCR.
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/hthienloc/dms-ocr-scanner/main/screenshot.png)
+
+</details>
+
+
+
+
+
+#### [Obsidian Capture](https://github.com/nishantg96/dms-obsidian-capture)
+
+Capture a note or task into today's daily note from anywhere, with a bar widget showing open tasks. Built for Obsidian; works with any folder of Markdown files.
+
+
+
+- id: obsidianCapture
+- name: Obsidian Capture
+- author: nishantg96
+- compositors: any
+- capabilities: daemon, dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/nishantg96/dms-obsidian-capture/main/screenshot.png)
 
 </details>
 
@@ -9442,6 +9852,36 @@ Toggle niri screenshot mode between disk save and clipboard only
 
 
 
+#### [Screenshot+](https://github.com/pcmid/dms-screenshot-plus)
+
+Region screenshot with live annotation: draw while you select. Rectangle, ellipse, line, arrow, pen, highlighter, text, mosaic and numbered markers. The selection stays movable and resizable with the toolbar following it; the result is copied to the clipboard or saved to a file at native resolution.
+
+
+
+- id: screenshotPlus
+- name: Screenshot+
+- author: pcmid
+- compositors: any
+- capabilities: daemon, ipc
+- dependencies: 
+- distro: any
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/pcmid/dms-screenshot-plus/main/screenshots/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Session Power Menu](https://github.com/ronmurphy/dms-contrib)
 
 Puts the Power menu in the Bar
@@ -9500,6 +9940,41 @@ Clickable bar icon that adds windows-life show desktop function. For Hyprland.
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/lpv11/dms-hypr-show-desktop/main/screenshot.png)
+
+</details>
+
+
+
+
+
+#### [Signal Chat](https://github.com/by-architect/DMS-Plugins)
+
+Signal provider for the Chat Manager plugin, linking as a companion device. Requires the Chat Manager plugin.
+
+
+
+- id: signalChat
+- name: Signal Chat
+- author: by-architect
+- compositors: any
+- capabilities: daemon
+- dependencies: go
+- distro: any
+
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [signalChat](https://github.com/by-architect/DMS-Plugins/tree/main/signalChat) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/by-architect/DMS-Plugins/main/signalChat/docs/screenshot.png)
 
 </details>
 
@@ -10527,6 +11002,41 @@ Search the web with 23+ built-in search engines plus custom search engine suppor
 
 
 
+#### [WhatsApp Chat](https://github.com/by-architect/DMS-Plugins)
+
+WhatsApp provider for the Chat Manager plugin, linking as a companion device. Requires the Chat Manager plugin.
+
+
+
+- id: whatsappChat
+- name: WhatsApp Chat
+- author: by-architect
+- compositors: any
+- capabilities: daemon
+- dependencies: go
+- distro: any
+
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [whatsappChat](https://github.com/by-architect/DMS-Plugins/tree/main/whatsappChat) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/by-architect/DMS-Plugins/main/whatsappChat/docs/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Whisperer](https://github.com/dwright134/dms-whisperer)
 
 Voice dictation: records your voice, transcribes it locally with whisper.cpp, and types the result at the cursor. Optional cloud AI (OpenRouter / Gemini) transcribes and formats in one pass.
@@ -10610,6 +11120,36 @@ Track departure times of Wiener Linien public transit
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/wolfsblu/dms-wiener-linien/refs/heads/main/screenshot.png)
+
+</details>
+
+
+
+
+
+#### [Workspace OSD Flash](https://github.com/AleBles/dms-workspace-osd)
+
+Briefly shows the id and name of the workspace you just switched to, centered on that screen.
+
+<strong>requires DMS version</strong>: <em>>=1.6.0</em>
+
+- id: workspaceOsdFlash
+- name: Workspace OSD Flash
+- author: Ale Bles
+- compositors: hyprland, niri
+- capabilities: daemon, ipc
+- dependencies: 
+- distro: any
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/AleBles/dms-workspace-osd/main/assets/screenshot.png)
 
 </details>
 
